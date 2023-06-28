@@ -29,9 +29,7 @@ if %errorlevel% neq 0 (
     exit /b
 )
 echo.
-cd venv\scripts
 pip install -r requirements.txt
-cd ..\..
 cls
 
 color 07
