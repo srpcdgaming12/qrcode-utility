@@ -86,7 +86,7 @@ class Build(MakeEnv):
         self.get_src()
         self.get_pyinstaller()
         self.get_upx()
-        command = ['pyinstaller', '--onefile', '--icon', '..\\src\\icons\\qrcode_gen_icon.ico',
+        command = ['pyinstaller', '--onefile', '--windowed', '--icon', '..\\src\\icons\\qrcode_gen_icon.ico',
                    '--workpath', f'"{self.work_dir}"', '--distpath', f'"{self.dist_dir}"', '--specpath', 
                    f'"{self.spec_dir}"', '--upx-dir', 'build\\upx', '--add-data', '..\\src\\icons;icons',  
                    '--add-data', '..\\pyzbar;pyzbar', '--disable-windowed-traceback', '--clean', 
