@@ -1,7 +1,7 @@
 colorama==0.4.6
 numpy==1.25.0
 opencv-python==4.7.0.72
-Pillow==9.5.0
+Pillow==10.0.1
 pip==23.1.2
 pypng==0.20220715.0
 pyzbar==0.1.9
